@@ -8,10 +8,10 @@ export default function DashboardContent() {
         <div className="bg-white shadow rounded-lg mb-8">
           <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             <div className="flex items-center">
-              <img src="https://drive.google.com/file/d/13ssQPaZrrJOVR-LtngZx5mq5r90UjwD9/view" alt="GDSC Logo" className="h-10 w-10 mr-3" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVj6nDTOTfaaJtEpv0lCC6v0HEfkiT7kB4GepNaQy8ejVoAb4V1BhHtA-xthq_J6ve4t0&usqp=CAU" alt="GDSC Logo" className="h-10 w-10 mr-3" />
               <h1 className="text-3xl font-bold text-gray-900">GDG IIT Bhilai</h1>
             </div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJ20Y03jPHKxgQ2HXQ36tGm9u62u4pedvpA&s" alt="IIT Bhilai Logo" className="h-10 w-10" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVj6nDTOTfaaJtEpv0lCC6v0HEfkiT7kB4GepNaQy8ejVoAb4V1BhHtA-xthq_J6ve4t0&usqp=CAU" alt="IIT Bhilai Logo" className="h-10 w-10" />
           </div>
         </div>
 
@@ -22,38 +22,38 @@ export default function DashboardContent() {
             <TeamMember
               name="Nidhi Singh"
               role="GDSC Lead"
-              image="https://drive.google.com/file/d/1V3SfUeqasYmoTrlVVHU4p6m5LuK3COLI/view"
+              image="https://drive.google.com/file/d/1V3SfUeqasYmoTrlVVHU4p6m5LuK3COLI/view?usp=drive_link"
               description="Passionate about technology and community building."
               isLead={true}
             />
             <TeamMember
               name="putla theophila"
               role="core member"
-              image="https://drive.google.com/file/d/13YoURNseYKRCQADdJ2tMFRm3xJIUCwce/view"
+              image="https://drive.google.com/file/d/13YoURNseYKRCQADdJ2tMFRm3xJIUCwce/view?usp=drive_link"
               description="Expertise in web development and cloud technologies."
             />
             <TeamMember
               name="Vasu Garg"
               role="core member"
-              image="https://drive.google.com/file/d/1yWOOJJpuX6-DCkG_Shn8ygliL4HmA6HF/view"
+              image="https://drive.google.com/file/d/1yWOOJJpuX6-DCkG_Shn8ygliL4HmA6HF/view?usp=drive_link"
               description="Creative mind behind our visual identity."
             />
             <TeamMember
               name="Amay dixit"
               role="core member"
-              image="https://drive.google.com/file/d/1YYtogEOpFCTDPlFHueLanDzYe6rjg0yw/view"
+              image="https://drive.google.com/file/d/1YYtogEOpFCTDPlFHueLanDzYe6rjg0yw/view?usp=drive_link"
               description="Connecting GDSC with the student community."
             />
             <TeamMember
               name="Ashutosh kumar jha"
               role="core member"
-              image="https://drive.google.com/file/d/1RshKhITX4Yl6cni28ttl2uRNv8XTLEAR/view"
+              image="https://drive.google.com/file/d/1RshKhITX4Yl6cni28ttl2uRNv8XTLEAR/view?usp=drive_link"
               description="xploring the frontiers of artificial intelligence"
             />
             <TeamMember
               name="Arpan Goswami"
               role="core member"
-              image="https://drive.google.com/file/d/1HIMPo3AV8y5j453Pjo64YZeO06Lwjom8/view"
+              image="https://drive.google.com/file/d/1HIMPo3AV8y5j453Pjo64YZeO06Lwjom8/view?usp=drive_link"
               description="Exploring the frontiers of artificial intelligence."
             />
           </div>
