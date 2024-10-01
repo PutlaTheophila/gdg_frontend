@@ -95,7 +95,7 @@ function TeamMember({ name, role, image, description, isLead = false }) {
     <div className={`bg-white overflow-hidden shadow rounded-lg ${isLead ? 'col-span-full lg:col-span-3' : ''}`}>
       <div className="p-5">
         <div className="flex flex-col sm:flex-row items-center">
-          <img className="h-32 w-32 rounded-full object-cover mb-4 sm:mb-0 sm:mr-4" src={image} alt={name} />
+          <img className="h-32 w-32 rounded-full object-cover mb-4 sm:mb-0 sm:mr-4" src={"https://brvminvestmentdays.com/wp-content/uploads/2024/04/person_placeholder.png"} alt={name} />
           <div className={`text-center sm:text-left ${isLead ? 'sm:flex-1' : ''}`}>
             <h3 className="text-lg font-medium text-gray-900">{name}</h3>
             <p className="text-sm text-blue-600 font-semibold">{role}</p>
