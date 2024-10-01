@@ -4,8 +4,8 @@ import { useLoaderData } from 'react-router-dom';
 export async function loader (){
     try {
         const [codeResponse, connectorResponse] = await Promise.all([
-            fetch('http://localhost:9090/api/v1/code'),
-            fetch('http://localhost:9090/api/v1/code/connectors'),
+            fetch('https://gdg-googlemapsapi.onrender.com/api/v1/code'),
+            fetch('https://gdg-googlemapsapi.onrender.com/api/v1/code/connectors'),
         ]);
 
         // Check if responses are OK
@@ -123,7 +123,7 @@ console.log('main',connectCoordinates)
   const handleSubmit = async () => {
     console.log('Submitted:', inputValue);
     try {
-        const res = await fetch("http://localhost:9090/api/v1/code", {
+        const res = await fetch("https://gdg-googlemapsapi.onrender.com/api/v1/code", {
             method: 'POST',
             credentials: 'include',
             headers: {
